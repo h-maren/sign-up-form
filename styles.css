@@ -27,26 +27,88 @@ h1 {
 
 p {
     font-family: 'dejavu_sansbook';
+    margin: 10px 20px;
+}
+
+label {
+    font-size: 8px;
+    font-family: 'dejavu_sansbook';
+    text-align: left;
+}
+
+.info {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 125%;
+    margin-top: 20px;
 }
 
 .image-footer{
     color: white;
-    font-size: 12px;
+    font-size: 8px;
     display: flex;
     justify-content: center;
+    margin-top: auto;
+    padding: 10px;
 }
 
 .image-content {
-    background-image: url("trees.jpg");
+    background-image: url("flowers.jpg");
+    background-size: cover;
+    background-position-x: -40px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    z-index:-1;
 }
 
 .header-background {
+    position: relative;
+    top: 50px;
     align-items: center;
     justify-content: center;
     display: flex;
-    background-color: black;
-    opacity: 0.5;
+    background-color:rgba(0,0,0,0.2);
     width: 100%;
-    padding: 30px;
+    padding: 10px 20px;
     box-sizing: border-box;
+}
+
+input {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+button {
+    margin: 10px 20px;
+    font-family: 'dejavu_sansbook';
+    font-size: 8px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color:lightpink;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px 20px;
+}
+
+.form-container {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account {
+    font-size: 10px;
 }
