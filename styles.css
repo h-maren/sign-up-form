@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'kaushan';
+    src: url('fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('fonts/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dejavu_sansbook';
+    src: url('fonts/dejavusans-webfont.woff2') format('woff2'),
+         url('fonts/dejavusans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    display: flex;
+}
+h1 {
+    font-family:'kaushan';
+    font-size: 52px;
+    color: white;
+}
+
+p {
+    font-family: 'dejavu_sansbook';
+}
+
+.image-footer{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-content {
+    background-image: url("trees.jpg");
+}
+
+.header-background {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
