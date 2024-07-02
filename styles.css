@@ -18,12 +18,12 @@
 
 body{
     display: flex;
-    margin: 0px 100px;
     background-color: rgb(243, 107, 127);
+    margin: 0px;
 }
 h1 {
     font-family:'kaushan';
-    font-size: 52px;
+    font-size: 100px;
     color: white;
 }
 
@@ -33,7 +33,7 @@ p {
 }
 
 label {
-    font-size: 8px;
+    font-size: 14px;
     font-family: 'dejavu_sansbook';
     text-align: left;
 }
@@ -44,7 +44,7 @@ label {
 
 .info {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 125%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -52,7 +52,7 @@ label {
 
 .image-footer{
     color: white;
-    font-size: 8px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     margin-top: auto;
@@ -85,7 +85,7 @@ input {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 8px;
+    font-size: 14px;
 }
 
 .form-row {
@@ -98,7 +98,7 @@ input {
 button {
     margin: 10px 20px;
     font-family: 'dejavu_sansbook';
-    font-size: 8px;
+    font-size: 14px;
     border-radius: 5px;
     border-width: 0px;
     background-color: 
@@ -112,7 +112,7 @@ button {
 }
 
 .form-container {
-    font-size: 14px;
+    font-size: 32px;
     display: flex;
     flex-direction: column;
     background-color: antiquewhite;
@@ -121,7 +121,7 @@ button {
 }
 
 .create-account {
-    font-size: 8px;
+    font-size: 14px;
 }
 
 a {
