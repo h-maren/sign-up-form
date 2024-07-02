@@ -18,6 +18,8 @@
 
 body{
     display: flex;
+    margin: 0px 100px;
+    background-color: rgb(243, 107, 127);
 }
 h1 {
     font-family:'kaushan';
@@ -36,11 +38,16 @@ label {
     text-align: left;
 }
 
+.main-content {
+    background-color: lightcoral;
+}
+
 .info {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 125%;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .image-footer{
@@ -55,7 +62,6 @@ label {
 .image-content {
     background-image: url("flowers.jpg");
     background-size: cover;
-    background-position-x: -40px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -69,6 +75,7 @@ label {
     justify-content: center;
     display: flex;
     background-color:rgba(0,0,0,0.2);
+    background-position: -40px;
     width: 100%;
     padding: 10px 20px;
     box-sizing: border-box;
@@ -78,6 +85,7 @@ input {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 8px;
 }
 
 .form-row {
@@ -93,22 +101,43 @@ button {
     font-size: 8px;
     border-radius: 5px;
     border-width: 0px;
-    background-color:lightpink;
+    background-color: 
 }
 
 .input-group {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 10px 20px;
+    margin: 5px 20px;
 }
 
 .form-container {
     font-size: 14px;
     display: flex;
     flex-direction: column;
+    background-color: antiquewhite;
+    padding-bottom: 20px;
+
 }
 
 .create-account {
-    font-size: 10px;
+    font-size: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+input[type="password"]:invalid {
+    outline: 1px solid red;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: 1px solid blue;
+    border-radius: 5px;
+}
+
+input {
+    width: 100px;
 }
