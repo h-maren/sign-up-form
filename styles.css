@@ -42,12 +42,12 @@ label {
     background-color: lightcoral;
     display: flex;
     flex-direction: column;
-    flex-basis: 0 0 100%;
+    flex-grow: 1;
 }
 
 .info {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 24px;
     line-height: 125%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -68,7 +68,7 @@ label {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    width: 500px;
+    width: 800px;
     z-index:-1;
 }
 
@@ -143,5 +143,5 @@ input:focus {
 }
 
 input {
-    width: 100px;
+    /*width: 200px;*/
 }
